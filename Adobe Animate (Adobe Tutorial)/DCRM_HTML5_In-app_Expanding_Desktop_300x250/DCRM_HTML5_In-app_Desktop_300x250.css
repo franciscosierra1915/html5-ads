@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+
+/* Default style, feel free to remove if not needed. */
+body, body * {
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	cursor: pointer;
+	-moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Div layer for the entire banner. */
+#container_dc {
+	background-color: #FFFFFF;
+}
+
+#collapse_content {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	background-image: url(DCRM_HTML5_In-app_Desktop_300x250_Background.jpg);
+	background-repeat:no-repeat;
+	display: none;
+}
+
+#fullscreen_btn {
+	position: absolute;
+	width: 149px;
+	height: 39px;
+	top: 100px;
+	left: 75px;
+	color: #000000;
+	z-index: 100;
+	background-color: #BFBFBF;
+	display: none;
+}
+
+#collapse_exit {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 98;
+	background-color: transparent;
+}
+
+#fullscreen_content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1366px;
+	height: 768px;
+	z-index: 100;
+	background-image: url(DCRM_HTML5_In-app_Desktop_1366x768_Expanded_Background.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	background-color: #4cb24f;
+	display:none;
+}
+
+
+#fullscreen_exit {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	z-index:999;
+	background-color: transparent;
+}
+
+#close_button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 20px;
+	height: 18px;
+	background-image: url(close.png);
+	background-repeat:no-repeat;
+}
+
+#close_hotspot {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 40px;
+	height: 40px;
+	background-color: #666666;
+	opacity: 0;
+	z-index:999;
+	background-repeat:no-repeat;
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+
+/* portrait */
+@media screen and (orientation:portrait) { /* portrait-specific styles */
+}
+
+/* landscape */
+@media screen and (orientation:landscape) { /* landscape-specific styles */
+}
+
